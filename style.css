@@ -1,0 +1,86 @@
+
+
+html {
+    background-image: url(https://th.bing.com/th/id/Rfa93c70dbddffb733cb8ca38626def6c?rik=x005WAps0fZVPA&riu=http%3a%2f%2ftrumpwallpapers.com%2fwp-content%2fuploads%2fBook-Wallpaper-02-2560-x-1600.jpg&ehk=BCHlVYS3sT9Mf6WBJRGIyZXVgYZ11VxNfwvHUBZSxOo%3d&risl=&pid=ImgRaw);
+    height: 20%;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap'); */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 1rem;
+}
+
+h1 {
+    text-transform: lowercase;
+    color: #61DAFB;
+    padding: 3rem 0;
+}
+
+input {
+    margin-bottom: 2rem;
+    font-family: inherit;
+    border-radius: 50px;
+    padding: .5rem;
+    width: 500px;
+    outline: none;
+    font-size: 2rem;
+    border: 2px solid rgb(253, 253, 253);
+    color: #0B4268;
+    transition: all .3s ease;
+}
+
+input:focus {
+    border: 2px solid #61DAFB;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    border-radius: 25px;
+    background: linear-gradient(90deg, #61DAFB 0%, rgb(10, 167, 211) 100%);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    width: 380px;
+    margin: .3rem auto;
+    color: #333
+}
+
+
+
+
+.book-name {
+    flex: 2;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.book-info {
+    border-left: 1px solid #333;
+    padding: 0 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: .7rem;
+    color: rgb(17, 80, 97);
+}
+
