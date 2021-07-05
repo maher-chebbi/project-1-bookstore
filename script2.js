@@ -5,7 +5,7 @@ title = localStorage.getItem('choosen book').toString();
 
 
 
-document.write(title + '&nbsp &nbsp &nbsp ' + '<br> <br> <br>')
+
 
 function Getitem() {
     console.log(title);
@@ -14,7 +14,8 @@ function Getitem() {
 }
 aa = Getitem();
 console.log(aa);
-document.writeln('Ecrivain: ')
-document.write(aa[0].ecrivain + '&nbsp &nbsp &nbsp ' + '<br> <br> <br>');
-document.write('Resumé: ')
-document.write(aa[0].resume)
+document.write('<p class="style3">' + title + '</p>' + '&nbsp &nbsp &nbsp' + '<br>')
+document.write('<p class="style2">' + 'Ecrivain: ' + aa[0].ecrivain + '<br><br>')
+
+document.write('<p class="style4">' + 'Resumé: ' + '<br><br><br>')
+document.write('<p class="style1">' + aa[0].resume + '</p>')

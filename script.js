@@ -219,6 +219,22 @@ function getelement(e) {
 
 
 }
+
+
+function addbooks() {
+    var newbook = {}
+    newbook.name = document.getElementById("bookname").value
+    newbook.ecrivain = document.getElementById("writer").value
+    newbook.résumé = document.getElementById("resumé").value
+    Books.push(newbook)
+    if (newbook.name === '' || newbook.ecrivain === '' || newbook.résumé === '') {
+        alert("you must fill all fields ")
+    } else
+        alert("your book has been added succefully")
+    console.log(Books)
+    console.log(newbook)
+}
+
 // INPUT SETUP
 
 
